@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "py-update-tmx"
+version = "0.1.0"
+description = "Utility to update translations in TMX file"
+authors = ["msoutopico <m.soutopico@gmail.com>"]
+readme = "README.md"
+packages = [{include = "py_update_tmx"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyyaml = "^6.0.1"
+lxml = "^5.1.0"
+pandas = "^2.2.1"
+openpyxl = "^3.1.2"
+rich = "^13.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
